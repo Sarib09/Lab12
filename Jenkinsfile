@@ -32,7 +32,7 @@
            echo 'Post build condition running'
              }
       
-      failiure {
+      failure {
            echo 'Post Action if Build Failed'
                }
     }
