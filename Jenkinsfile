@@ -23,4 +23,15 @@
     }
 
 }
+
+    post {
+      // the conditions here will execute after the build is done
+
+      always {
+            // this action will happen always regardless of teh result of the build
+           echo 'Post Action if Build Failed'
+             }
+    }
+        
+ 
   }
