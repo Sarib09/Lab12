@@ -29,8 +29,12 @@
 
       always {
             // this action will happen always regardless of teh result of the build
-           echo 'Post Action if Build Failed'
+           echo 'Post build condition running'
              }
+      
+      failiure {
+           echo 'Post Action if Build Failed'
+               }
     }
         
  
